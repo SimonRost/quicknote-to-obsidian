@@ -6,7 +6,6 @@ I started using Obsidian a few months ago and often found myself wanting to quic
 
 This is great for quickly capturing thoughts, journal entries, or TODOs without opening a full editor.
 
-
 ---
 
 ## 📦 Features
@@ -119,7 +118,7 @@ Maintain a local `.json` or `.md` log of all saved notes, including timestamp, f
   Allow attaching images or other files to a note. Files can be copied to the vault and embedded using standard Markdown syntax.
 
 - 🔲 **Basic Settings UI:**
-  Add a minimal settings window to adjust save folder, filename format, and other configurable options.
+  Add a minimal settings window to adjust save folder, filename format, and other configurable options. Also make a "dark-mode" available.
 
 - 🔲 **Daily Note Auto-Routing**
   Add option to route all notes into a single daily file like `2025-05-26.md`.
