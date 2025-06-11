@@ -42,20 +42,19 @@ This is great for quickly capturing thoughts, journal entries, or TODOs without 
 You can launch this app with a custom keyboard shortcut in Windows:
 
 **1. Create a shortcut:**
-    - Right-click on `main.pyw`.
-    - Choose **Send to → Desktop** (create shortcut).
+- Right-click on `main.pyw`.
+- Choose **Send to → Desktop** (create shortcut).
 
 **2. Configure the shortcut:**
-    - Right-click the new shortcut on your desktop and select **Properties**.
-    - In the **Target** field, make sure it looks like this:
-    ```bash
-    pythonw.exe "C:\path\to\quick-note-to-obsidian\main.pyw"
-    ```
-    Adjust the path to your Python installation if needed.
+- Right-click the new shortcut on your desktop and select **Properties**.
+- In the **Target** field, make sure it looks like this:
+`pythonw.exe "C:\path\to\quick-note-to-obsidian\main.pyw"`
+  - If Python isn't in PATH note direct path to pythonw.exe:<br>`"C:\Users\YourUsername\AppData\Local\Programs\Python\Python312\pythonw.exe" "C:\full\path\to\your\project\main.pyw"`<br>
+(Adjust the path to your Python installation if needed.)
 **3. Assign a hotkey:**
-    - In the same Properties window, go to the **Shortcut** tab.
-    - Click the **Shortcut key** field and press your desired combo (e.g., `Ctrl + Alt + N`).
-    - Click **OK**.
+- In the same Properties window, go to the **Shortcut** tab.
+- Click the **Shortcut key** field and press your desired combo (e.g., `Ctrl + Alt + N`).
+- Click **OK**.
 
 Now you can launch the app instantly with your chosen hotkey.
 
